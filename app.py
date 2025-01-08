@@ -1,12 +1,9 @@
 import numpy as np
 import cv2
 import streamlit as st
-from sklearn.linear_model import LinearRegression
 from skimage.metrics import structural_similarity as compare_ssim
 from skimage.metrics import peak_signal_noise_ratio as compare_psnr
 from cv2 import dnn
-import joblib
-import os
 import matplotlib.pyplot as plt
 
 st.set_page_config(
